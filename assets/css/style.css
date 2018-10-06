@@ -73,6 +73,7 @@ h1 {
 h2 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 15px;
 }
 
 section {
@@ -138,6 +139,17 @@ input[type=message] {
     padding: 60px 20px;
     margin: 8px 5px 5px 0;
     box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+}
+
+.text-block {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
 }
 
 .footer {
